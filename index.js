@@ -29,7 +29,7 @@ function currentLine(line)
   }
   var counter=0;
   var index=1;
-  var myString="The line is currently: ";
+   myString="The line is currently: ";var
   while (counter < line.length)
   {
     if (counter == line.length-1)
