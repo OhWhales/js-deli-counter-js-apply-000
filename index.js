@@ -12,6 +12,7 @@ function takeANumber(line, name)
 function takeATicket(line)
 {
   globalCounter++;
+  line.push(globalCounter);
   return `Welcome. You are customer ${globalCounter}`;
   
 }
