@@ -1,5 +1,5 @@
 var katzDeliLine = [];
-var globalCounter;
+var globalCounter=0;
 
 function takeANumber(line, name)
 {
@@ -9,7 +9,10 @@ function takeANumber(line, name)
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
 
-function takeATicket()
+function takeATicket(line)
+{
+  
+}
 
 function nowServing(line)
 {
