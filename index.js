@@ -1,4 +1,5 @@
 var katzDeliLine = [];
+var globalCounter;
 
 function takeANumber(line, name)
 {
@@ -7,6 +8,8 @@ function takeANumber(line, name)
   line.push(name);
   return `Welcome, ${name}. You are number ${line.length} in line.`;
 }
+
+function takeATicket()
 
 function nowServing(line)
 {
@@ -29,7 +32,7 @@ function currentLine(line)
   }
   var counter=0;
   var index=1;
-  myString="The line is currently: ";var
+  var myString="The line is currently: ";
   while (counter < line.length)
   {
     if (counter == line.length-1)
